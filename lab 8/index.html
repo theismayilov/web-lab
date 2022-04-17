@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice with Javascript language</title>
+</head>
+
+<body>
+    <div class="main">
+        <form name="forma">
+            Enter x: <input type="text" name="x" size="20"> <br>
+            y: <input type="text" name="y" size="20"> <br>
+            <input type="button" value="Calculation" onclick="cond()"> <br>
+        </form>
+    </div>
+    <script>
+        let answer = confirm("Do you want using input functions?");
+        if (answer == true) {
+            document.querySelector(".main").style.display = "none";
+            var x, t, z, y, w;
+            x = parseFloat(prompt("Enter x:"));
+            t = parseFloat(prompt("Enter t:"));
+            z = parseFloat(prompt("Enter z:"));
+            y = (2 * Math.cos(x - Math.PI / 6)) / (0.5 + Math.pow(Math.sin(x), 2));
+            w = y + (Math.pow(z, 2) / (3 + Math.pow(z, 2) / 5));
+            alert("y = " + y);
+            alert("w = " + w);
+        }
+        else {
+            function cond() {
+                var a, t, b, y, x, w;
+                x = Number(document.forma.x.value);
+                if (x > 3.5)
+                    y = Math.sin(x) * Math.tan(x);
+                else
+                    y = Math.pow(Math.cos(x), 2);
+                document.forma.y.value = String(y);
+            }
+        }
+    </script>
+</body>
+</html>

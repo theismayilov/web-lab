@@ -1,0 +1,85 @@
+nav{
+    background-color: #5cad88;
+    height: 60px;
+    display: flex !important;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+nav a{
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 6px;
+    margin: 15px;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+}
+#menu{
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+#social i{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 3px 12px;
+    border-radius: 5px;
+}
+#fb{
+    color: white;
+    background-color: #395693;
+    padding: 3px 14px !important;
+}
+#in{
+    color: white;
+    background-color: #144679;
+}
+#yt{
+    color: white;
+    background-color: red;
+}
+#tw{
+    color: white;
+    background-color: #1C9CEA;
+}
+main{
+    display: flex !important;
+    margin: 0 60px;
+}
+aside{
+    background-color: #6ecca1;
+}
+aside h1{
+    text-align: center;
+    font-weight: 700;
+    padding: 50px;
+    font-size: 50px;
+    color: #054226;
+}
+aside div{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin: 10px;
+    height: 200px;
+    background-color: #054226;
+}
+article{
+    padding: 20px;    
+    line-height: 1;
+    font-family: sans-serif ;
+}
+article a{
+    text-decoration: underline;
+    color: rgb(0, 0, 231);
+    font-weight: 800;
+}
+article p:first-of-type{
+    font-weight: 600;
+}
+hr{
+    border-top: 3px dotted gray !important;
+}

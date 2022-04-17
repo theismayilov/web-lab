@@ -1,0 +1,43 @@
+body{
+    font-size: 14px;
+}
+.container, header, section, article, aside, aside div{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 8px;
+}
+.container{
+    margin: 20px 200px;
+    background-color: lightskyblue;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h3{
+    margin: 0 !important;
+}
+a{
+    color: black;
+}
+main{
+    display: flex;
+}
+section{
+    flex: 25%;
+}
+article{
+    flex: 45%;
+}
+article ol{
+    padding-left: 30px;
+}
+aside{
+    flex: 25%;
+}
+section a{
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
